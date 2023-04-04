@@ -12,12 +12,7 @@ interface User {
  * at THIS LINE - not further down in the code?
  */
 
-const defaultUser: User = {
-  id: 1,
-  firstName: "John",
-  lastName: "Doe",
-  isAdmin: false,
-};
+const defaultUser = {};
 
 const getUserId = (user: User ) => {
   return user.id;

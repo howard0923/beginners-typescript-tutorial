@@ -10,7 +10,10 @@ interface User {
    */
   role: "admin" | "user" | "super-admin";
 }
-
+// declare a object call UserName, and it has a property call role, and it is a string
+interface UserName extends User {
+  role: string;
+}
 
 export const defaultUser: User = {
   id: 1,

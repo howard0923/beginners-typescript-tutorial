@@ -24,10 +24,8 @@ const makeUser = () => {
     lastName: "Doe",
     role: "admin",
     posts: [
-    {
       id: 1,
       title: "Post 1",
-    }
     ],
   };
 };

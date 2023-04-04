@@ -7,8 +7,8 @@ interface User {
 }
 
 const createThenGetUser = async (
-  createUser: () => Promise<string>,
-  getUser: (id: string) => Promise<User>,
+  createUser: Promise<string>,
+  getUser: unknown,
 ): Promise<User> => {
   const userId: string = await createUser();
 
